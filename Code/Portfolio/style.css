@@ -1,0 +1,182 @@
+* {
+  font-family: sans-serif;
+  line-height: 1.614em;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 16px;
+  margin-top: 3em;
+}
+
+
+header,
+main,
+footer {
+  margin: auto;
+  max-width: 800px;
+}
+
+header {
+  padding: 2em 0;
+}
+
+header h1 {
+  font-size: 3em;
+}
+
+
+
+header span {
+  font-size: 1.5em;
+  color: #999;
+}
+
+#navLeft {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 2%;
+  width: 50%;
+  gap: 5em;
+
+  display: flex;
+  flex-flow: row;
+  grid-template-rows: auto;
+  grid-template-columns: auto;
+  justify-content: left;
+  background: #333;
+}
+
+#navRight {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 2%;
+  width: 50%;
+  gap: 5em;
+
+  display: flex;
+  flex-flow: row;
+  justify-content: right;
+  background: #333;
+}
+
+nav a {
+  padding: 0.5em 2em;
+  text-decoration: none;
+  color: #000000;
+}
+
+nav a:hover {
+  background: #666;
+}
+
+.nav1 {
+  display: flex;
+  grid-row-start: auto;
+  justify-content: left;
+}
+
+.navHome {
+  border: 2px solid #f76707;
+  border-radius: 7px;
+  background-color: #fff4e6;
+}
+
+.navAboutMe {
+  border: 2px solid #f76707;
+  border-radius: 7px;
+  background-color: #fff4e6;
+}
+
+.navProjects {
+  border: 2px solid #f76707;
+  border-radius: 5px;
+  background-color: #fff4e6;
+}
+
+nav a:hover {
+  background: #666;
+  color: #fff;
+}
+
+.nav1 img {
+  height: auto;
+  display: grid;
+  grid-template-rows: auto;
+}
+
+.matt {
+  color: #fff;
+}
+
+#aboutMe {
+  display: grid;
+  grid-template-columns: repeat(2, 50em);
+  grid-template-rows: repeat(2, 50em);
+  height: 500px;
+  width: 500px;
+  gap: 50px;
+
+}
+
+#aboutMe img {
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  padding: 5px;
+  width: 150px;
+  
+  
+}
+
+#aboutMe p img {
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  padding: 5px;
+  width: 50px;
+}
+
+section {
+  margin: 1em 0;
+  padding-top: 3em;
+  min-height: 20em;
+}
+
+section > p {
+  margin: 1em 0 ;
+}
+
+
+#projects {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) ;
+  grid-template-rows: auto;
+  gap: 1em;
+}
+
+#projects article {
+  background: #ccc;
+  padding: 1em;
+}
+
+#projects article img {
+  width: 10em ;
+  padding: 0 2em;
+}
+
+#projects img {
+  padding: 1px;
+  width: 100px;
+  height: 100px;
+}
+
+footer {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  background-color: #666;
+  color: #fe8f1f;
+  padding: 1em 0;
+  text-align: center;
+}

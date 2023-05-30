@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    border: 5px outset red;
+    background-color: lightblue;
+}
+h1 {
+    color: red;
+}
+
+.imageSection {
+
+  text-align: center;
+}
+
+.colorList {
+    text-align: center;
+    color: teal;
+}
+
+.movieList {
+    text-align: center;
+    color: gray;
+}
+
+ul {
+    display: inline-block; 
+	text-align: left; 
+}
+
+ol {
+    display: inline-block; 
+	text-align: left; 
+}

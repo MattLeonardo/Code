@@ -1,0 +1,21 @@
+.container {
+    display: grid;
+    color: white;
+    width: 1000px;
+    margin: 2rem auto 2rem auto;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 100px 200px 100px;
+    gap: 15px 20px;
+}
+
+.odd {
+    background-color: purple;
+}
+
+.even {
+    background-color: blue;
+}
+.gridItem {
+    font-size: 25pt;
+    border: solid black 2px;
+}
