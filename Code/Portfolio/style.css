@@ -236,6 +236,14 @@ footer {
   text-align: center;
 }
 
+footer a {
+  color: #fff;
+}
+
+footer a:hover {
+  color: #fe8f1f;
+}
+
 footer ul {
   display: inline-block;
   text-align: left;
