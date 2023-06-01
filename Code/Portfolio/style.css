@@ -64,13 +64,15 @@ header span {
 }
 
 nav a {
-  padding: 0.5em 2em;
+  padding: 0em 2em;
   text-decoration: none;
   color: #000000;
 }
 
 nav a:hover {
+  display: block;
   background: #666;
+  height: 1.5em;
 }
 
 .nav1 {
@@ -86,7 +88,7 @@ nav a:hover {
 }
 
 .navAboutMe {
-  border: 2px solid #f76707;
+  border: 1px solid #f76707;
   border-radius: 7px;
   background-color: #fff4e6;
 }
@@ -100,6 +102,7 @@ nav a:hover {
 nav a:hover {
   background: #666;
   color: #fff;
+  
 }
 
 .nav1 img {
@@ -118,6 +121,13 @@ nav a:hover {
   justify-content: center;
   align-items: stretch;
   text-align: center;
+  border: 2px solid #000000;
+  border-radius: 7px;
+  background-color: #fff4e6;
+  gap: 2px;
+}
+.body {
+  gap: 5px;
   border: 2px solid #000000;
   border-radius: 7px;
   background-color: #fff4e6;
@@ -192,7 +202,7 @@ section > p {
 
 #myProjects {
   text-align: center;
-  border: 2px solid #000000;
+  border: 1px solid #000000;
   border-radius: 7px;
   background-color: #fff4e6;
 }
@@ -203,7 +213,6 @@ section > p {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
   gap: 0.5em;
-  border: 1px #333;
 }
 
 #projects article {
@@ -214,6 +223,7 @@ section > p {
 #projects article img {
   width: 10em;
   padding: 0 2em;
+  
 }
 
 #projects img {
@@ -223,7 +233,7 @@ section > p {
 }
 
 #myProjects {
-  border: 2px #000;
+  border: 2px solid #000;
   border-radius: 10px;
 }
 
@@ -234,6 +244,8 @@ footer {
   color: #fe8f1f;
   padding: 1em 0;
   text-align: center;
+  border-radius: 10px;
+  border: solid 2px;
 }
 
 footer a {
