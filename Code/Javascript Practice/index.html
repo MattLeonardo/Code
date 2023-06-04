@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 onclick="this.style.color = 'pink';"> My title </h1>
+    <h2>My Subheading</h2>
+    <h3>My Article Title</h3>
+
+<!--Alert Box-->
+    <button type="button" name="button" id="alert">Alert Box</button>
+
+<!--Confirm Box-->
+    <button type="button" name="button" id="confirm">Confirm Box</button>
+    <output name="result" id="confirmResponse"></output>
+
+<!--Prompt Box-->
+    <button type="button" name="button" id="prompt">Prompt Box</button>
+    <output name="result" id="promptResponse"></output>
+
+<!--JS inside of HTML document-->
+        <script type="text/Javascript">
+            document.getElementsByTagName('h2')[0].onclick = function() {
+            document.getElementsByTagName('h2')[0].style.fontSize =  `30px`;
+            };
+    </script>
+
+<script src="app.js"></script>
+</body>
+</html>
